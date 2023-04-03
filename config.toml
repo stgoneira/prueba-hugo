@@ -1,4 +1,4 @@
-baseURL = 'http://stgoneira.github.io/prueba-hugo/'
+baseURL = 'https://stgoneira.github.io/prueba-hugo/'
 languageCode = 'es-CL'
 title = 'My Site using Hugo'
 [[menu.main]]
