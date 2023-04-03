@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://example.org/contacto/</loc>
-    <lastmod>2023-04-02T23:09:34-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/nosotros/</loc>
-    <lastmod>2023-04-02T23:04:15-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2023-04-02T21:27:38-04:00</lastmod>
-  </url><url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>http://stgoneira.github.io/prueba-hugo/contacto/</loc><lastmod>2023-04-02T23:42:08-04:00</lastmod></url><url><loc>http://stgoneira.github.io/prueba-hugo/nosotros/</loc><lastmod>2023-04-02T23:42:08-04:00</lastmod></url><url><loc>http://stgoneira.github.io/prueba-hugo/</loc><lastmod>2023-04-02T23:45:51-04:00</lastmod></url><url><loc>http://stgoneira.github.io/prueba-hugo/categories/</loc></url><url><loc>http://stgoneira.github.io/prueba-hugo/tags/</loc></url></urlset>

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ block "title" .}}{{ .Title }} | Mi Sitio{{ end }}</title>
-    {{ $estilo := resources.Get "scss/estilo.scss" | resources.ToCSS }}    
-    <link rel="stylesheet" href="{{ $estilo.Permalink }}" />
-</head>
-<body>
-    {{ block "header" .}}
-        {{ partial "header.html" . }}
-    {{ end }}
-    {{ block "main" . }}
+<html lang="{{ $.Site.Language.Lang }}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{ block "title" .}}{{ .Title }} | {{ $.Site.Title }}{{ end }}</title>
+        {{ $estilo := resources.Get "scss/estilo.scss" | resources.ToCSS }}    
+        <link rel="stylesheet" href="{{ $estilo.Permalink }}" />
+    </head>
+    <body>
+        {{ block "header" .}}
+            {{ partial "header.html" . }}
+        {{ end }}
+        {{ block "main" . }}
 
-    {{ end }}
-    {{ block "footer" . }}
-        {{ partial "footer.html" . }}
-    {{ end }}
-</body>
+        {{ end }}
+        {{ block "footer" . }}
+            {{ partial "footer.html" . }}
+        {{ end }}
+    </body>
 </html>
