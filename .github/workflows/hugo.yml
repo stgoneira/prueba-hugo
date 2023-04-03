@@ -58,7 +58,7 @@ jobs:
           hugo \
             --minify \
             --enableGitInfo \
-            --baseURL "${{ steps.pages.outputs.base_url }}/${{ repository_name }}"
+            --baseURL "${{ steps.pages.outputs.base_url }}/$repository_name"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
